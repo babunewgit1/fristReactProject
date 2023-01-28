@@ -1,0 +1,125 @@
+#love {
+  padding-top: 100px;
+}
+
+.love-left h3 {
+  font-size: 45px;
+  font-weight: 700;
+  max-width: 400px;
+  padding-left: 20px;
+  border-left: 4px solid #ff900e;
+}
+
+.love-left p {
+  color: #727272;
+  margin: 15px 0px;
+}
+
+.love-left-wrapper {
+  padding-right: 100px;
+}
+
+.lovbitems {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 25px;
+}
+
+.lovbitems h6 {
+  color: #131313;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.lovbitems p {
+  color: #727272;
+}
+
+.loveYear {
+  background: #ff900e;
+  border-radius: 8px;
+  position: absolute;
+  left: -75px;
+  bottom: -50px;
+  padding: 25px 38px;
+}
+
+.love-right {
+  position: relative;
+}
+
+.loveYear h3 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .love-left h3 {
+    max-width: 100%;
+    font-size: 28px;
+  }
+
+  .love-left-wrapper {
+    padding-right: 0px;
+  }
+
+  .loveYear {
+    left: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .love-left h3 {
+    max-width: 100%;
+    font-size: 28px;
+  }
+
+  .love-left-wrapper {
+    padding-right: 0px;
+  }
+
+  .loveYear {
+    left: 0;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #love {
+    padding-top: 50px;
+  }
+
+  .love-left h3 {
+    max-width: 100%;
+    font-size: 28px;
+  }
+
+  .love-left-wrapper {
+    padding-right: 0px;
+  }
+
+  .loveYear {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #love {
+    padding-top: 50px;
+  }
+
+  .love-left h3 {
+    max-width: 100%;
+    font-size: 28px;
+  }
+
+  .love-left-wrapper {
+    padding-right: 0px;
+  }
+
+  .loveYear {
+    left: 0;
+  }
+}
